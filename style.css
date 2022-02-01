@@ -46,6 +46,9 @@
                 height: 60px;
                 background-color: rgb(223, 108, 0);
              }
+             td, th, tr, thread, tbody {
+                border:inherit;
+                }
             tr :hover{
                 background-color: rgb(103, 241, 218);
             }

@@ -8,7 +8,7 @@
         document.addEventListener("DOMContentLoaded", function() {
              document.querySelectorAll('button').forEach(function(button) {
                 button.onclick = function() {
-                    document.querySelector('body').style.color = button.dataset.color;
+                    document.querySelector('table').style.border = button.dataset.border;
                 };
             });
         document.querySelector('form').onkeyup = function() {
@@ -76,16 +76,17 @@
     <div>
 
 
-    <button data-color="red" data-size="60px" id="red">Red</button>
-    <button data-color="green" data-size="40px" id="green">Green</button>
-    <button data-color="blue" data-size="20px" id="blue">Blue</button>
+    <button data-border="3px solid red" data-size="60px" id="red">Red</button>
+    <button data-border="4px solid green" data-size="40px" id="green">Green</button>
+    <button data-border="4px solid blue" data-size="20px" id="blue">Blue</button>
 
+
+     <h3>Sort the Mountains You Wish To Visit</h3>
      <ol></ol>
     <form>
         <input type="text" id="text" placeholder="Add the list item" autofocus>
         <input type="submit" id="submit" value="Add to List" disabled="true">
     </form>
-
 </body>
 
 </html>
