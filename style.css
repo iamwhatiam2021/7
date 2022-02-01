@@ -36,6 +36,16 @@
                 height: 60px;
                 background-color: rgb(53, 135, 202);
             }
+            .table-head2{
+                border: 3px solid black;
+                height: 60px;
+                background-color: rgb(122, 186, 0);
+             }
+             .table-head3{
+                border: 3px solid black;
+                height: 60px;
+                background-color: rgb(223, 108, 0);
+             }
             tr :hover{
                 background-color: rgb(103, 241, 218);
             }
