@@ -1,0 +1,42 @@
+<style>
+
+.           centerText {
+            text-align: center;
+            }
+            body{
+                background: rgb(218, 231, 222);
+                font-size: 25px;
+                width: 80%;
+                 margin: auto;
+                 text-align: center;
+                 font-family: Impact, Book Antiqua, 'Arial Narrow Bold', sans-serif;
+                 background-image: url(pollution2.jpg);
+                 background-size: cover;
+                 color: rgb(0, 0, 0);
+                 background-position: center;
+                   }
+            .table_style
+                 { margin: auto;
+                margin-top: 5%;
+                width: 50%;
+                height: 100%;
+                border: 3px solid rgb(51, 21, 107);
+                border-collapse: collapse;
+                padding: 10px;
+                text-align: center;
+                /* background-color: rgb(68, 152, 185); */
+
+            }
+            tr, th, td{
+                border: 3px solid rgb(36, 36, 37);
+                height: 60px;
+            }
+            .table-head{
+                border: 3px solid black;
+                height: 60px;
+                background-color: rgb(53, 135, 202);
+            }
+            tr :hover{
+                background-color: rgb(103, 241, 218);
+            }
+    </style>
